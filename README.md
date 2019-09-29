@@ -3,7 +3,7 @@ Webpage Template Created with Pure &amp; Advanced HTML &amp; CSS with the help o
 ***
 ## Project Status :
 
-__`COMPLETE`__ :FIRE: 
+__`COMPLETE`__ :fire: 
 
 
 ## Environments Required :
