@@ -8,9 +8,199 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         
-        <title>trillo &mdash; Your all-in-one booking app</title>
+        <title>Amazing Flex Box based Web Template</title>
     </head>
     <body>
-        
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="Logo" class="logo">
+
+                <form action="/" class="search">
+                    <input type="text" class="search__input" placeholder="Search" id="sr-only">
+                    <label for="sr-only" style="display: none !important;">Search Box</label>
+                    <button class="search__btn">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">10</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">10</span> 
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/user-1.jpg" alt="Username" class="user-nav__user-pic">
+                        <span class="user-nav__user-name">John Doe</span>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__list side-nav__list--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__list">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__list">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Supports</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__list">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">
+                        &copy; 2019-2020 Rahul Gupta. All Rights Reserved.
+                    </div>
+                </nav>
+                <main class="main">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Hotel" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Hotel" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Hotel" class="gallery__photo">
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Loreum Ipsum
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon--star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon--star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon--star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon--star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon--star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                        <div class="overview__location">
+                            <svg class="overview__icon--location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Mumbai, India</button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating--average">8.6/10</div>
+                            <div class="overview__rating--count">751 Votes</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ad obcaecati voluptatum hic temporibus odio porro eius cumque laudantium natus, et veniam deleniti? Officiis facere necessitatibus expedita magnam praesentium distinctio.
+                            </p>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorum consectetur qui neque totam voluptatem, facere dicta dignissimos rem maiores explicabo perferendis labore ab quibusdam nemo aut consequuntur optio incidunt.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Feature 1</li>
+                                <li class="list__item">Feature 2</li>
+                                <li class="list__item">Feature 3</li>
+                                <li class="list__item">Feature 4</li>
+                                <li class="list__item">Feature 5</li>
+                                <li class="list__item">Feature 6</li>
+                                <li class="list__item">Feature 7</li>
+                                <li class="list__item">Feature 8</li>
+                            </ul>
+                            <div class="recommend">
+                            <p class="recommend__count">Recommended by Rahul and 3 other friends.</p>
+                            <div class="recommend__friends">
+                                <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                <img src="img/user-6.jpg" alt="Friend 4" class="recommend__photo">
+                            </div>
+                            </div>
+                        </div>
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eaque aliquid obcaecati provident.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="UserName" class="review__photo">
+                                    <div class="review__user--box">
+                                        <p class="review__user--name">John Doe</p>
+                                        <p class="review__user--date">Jan 1, 2019</p>
+                                    </div>
+                                    <div class="review__rating">7.8/10</div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eaque aliquid obcaecati provident.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-3.jpg" alt="UserName" class="review__photo">
+                                    <div class="review__user--box">
+                                        <p class="review__user--name">Rahul Gupta</p>
+                                        <p class="review__user--date">March 1, 2019</p>
+                                    </div>
+                                    <div class="review__rating">8.1/10</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline">Show All <span>&rarr;</span></button>
+                        </div>
+                        
+                    </div>
+                    <div class="cta">
+                        <h2 class="cta__header">
+                            Lorem ipsum dolor sit, amet consec !
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Action Time</span>
+                            <span class="btn__invisible">Proceed</span>
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
     </body>
 </html>
