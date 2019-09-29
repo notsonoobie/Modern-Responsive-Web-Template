@@ -6,6 +6,9 @@ Webpage Template Created with Pure &amp; Advanced HTML &amp; CSS with the help o
 __`COMPLETE`__ :fire: 
 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/369ac658-c6ba-4034-bc69-b10583a96b9e/deploy-status)](https://app.netlify.com/sites/flexboxtemplate/deploys)
+
+
 ## Environments Required :
 * [Nodejs](https://nodejs.org/en/download/)
 * [Npm](https://www.npmjs.com/package/download)
